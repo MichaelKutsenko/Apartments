@@ -1,0 +1,267 @@
+/* -TOOLBAR- */
+.toolbar {
+    background: #910801;
+    text-align: left;
+    padding: 5px 10px 7px 10px;
+    min-height: 39px;
+}
+
+.big_block {
+    width: 20%;
+}
+
+.little_block {
+    width: 10%
+}
+/* -TOOLBAR END- */
+
+/* -RESULTS_CONTAINER- */
+#results_container{
+    background-color: rgba(205, 204, 229, 0.29);
+    padding: 2px 12px;
+}
+
+.flat_container{
+    position: relative;
+    text-align: left;
+    background-color: #fff;
+    padding: 10px;
+    height: 150px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.image_container{
+    float: left;
+    width: 33.5%;
+    max-width: 150px;
+}
+
+.flat_descriptor{
+    float: left;
+    margin-left: 1.2em;
+    padding: .5em 0 0 .5em;
+    width: 65%;
+}
+
+.price{
+    color: black;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.address{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.features{
+    color: #888;
+}
+
+.info{
+    color: black;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 210px;
+}
+
+.contacts{
+    float: right;
+    color: black;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.info_button{
+    float: right;
+    background-color: rgba(140, 7, 1, 0.65);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-top: 5px;
+    padding: 10px 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.info_button:hover{
+    background-color: rgba(140, 7, 1, 1.0);
+}
+
+.favorite{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: auto;
+    left: auto;
+    z-index: 5;
+}
+/* -RESULTS_CONTAINER END- */
+
+
+/* -APARTMENT_DESCRIPTOR- */
+#apartment_descriptor, header h1{
+    text-align: justify;
+}
+
+#apartment_descriptor{
+    margin: 0 auto;
+    width: 90%;
+}
+
+#apartment_header {
+    margin-left: 5px;
+}
+
+.top_address{
+    color: #888;
+}
+
+.top_price{
+    font-weight: 700;
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.phone_item{
+    display: inline-block;
+}
+
+/* -SLIDER- */
+#slider {
+    display: inline-block !important;
+    width: 55%;
+}
+
+#slider .slide{
+    width: 100%;
+}
+/* -SLIDER END- */
+
+.description{
+    float: right;
+    padding: 5px;
+    width: 40%;
+    min-width: 320px;
+}
+/* -APARTMENT_DESCRIPTOR END- */
+
+/* -ADAPTIVE WEB DESIGN	- */
+@media screen and (max-width: 900px) {
+    #apartment_descriptor{
+        width: 95%;
+    }
+
+    .description{
+        margin-top: -15px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .little_block{
+        min-width: 80px;
+    }
+
+    #apartment_header{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #slider {
+        display: block !important;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .description{
+        float: none;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    form {
+        text-align: center;
+    }
+
+    .big_block{
+        min-width: 46%;
+    }
+
+    .little_block{
+        min-width: 30%;
+    }
+
+    #results_container{
+        padding: 2px 0;
+    }
+
+    .flat_container{
+        padding: 5px 2px;
+    }
+
+    .info_button{
+        padding: 10px;
+    }
+
+    #slider {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .info_button{
+        padding: 5px;
+    }
+
+    .flat_descriptor{
+        width: 50%;
+    }
+
+    .address{
+        margin: 0;
+    }
+
+    .info{
+        min-width: 370px;
+    }
+
+    .info{
+        position: relative;
+        bottom: 0;
+    }
+
+    .contacts, .info{
+        margin: 10px auto;
+        display: inline-block;
+    }
+
+    .contacts{
+        float: left;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .info_button{
+        display: none;
+    }
+
+    .contacts, .info{
+        margin: 0;
+        display: inline-block;
+    }
+}
+/* -ADAPTIVE WEB DESIGN	END- */

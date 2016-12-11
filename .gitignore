@@ -1,0 +1,13 @@
+.idea/*
+
+out/*
+
+target/*
+
+persistence.xml
+
+*.class
+
+*.war
+*.jar
+*.ear
