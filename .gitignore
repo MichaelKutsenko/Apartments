@@ -1,13 +1,13 @@
-.idea/*
+#.idea/*
 
-out/*
+#out/*
 
-target/*
+#target/*
 
 oldImg/*
 
-*.class
+#*.class
 
-*.war
-*.jar
-*.ear
+#*.war
+#*.jar
+#*.ear

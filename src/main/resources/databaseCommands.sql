@@ -1,14 +1,14 @@
 -- General commands
-DROP DATABASE IF EXISTS Apartments_db;
+# DROP DATABASE IF EXISTS Apartments_db;
+#
+# CREATE DATABASE Apartments_db;
 
-CREATE DATABASE Apartments_db;
-
-USE Apartments_db;
+# USE d8dmtuttrhcpv7;
 
 -- Table: apartments
 CREATE TABLE Apartments (
   id          INT UNSIGNED     NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  user_id     INT UNSIGNED     NOT NULL,
+  user_id     INT UNSIGNED     DEFAULT NULL,
   status      VARCHAR(32)      NOT NULL,
   type        VARCHAR(32)      NOT NULL,
   floor       TINYINT UNSIGNED NOT NULL,

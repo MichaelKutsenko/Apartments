@@ -7,9 +7,9 @@
         <properties>
             <property name="hibernate.show_sql" value="true" />
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/Apartments_db"/>
-            <property name="javax.persistence.jdbc.user" value="root" />
-            <property name="javax.persistence.jdbc.password" value="abc123" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/heroku_a2736c1ec063973?reconnect=true"/>
+            <property name="javax.persistence.jdbc.user" value="b73b29b287469f" />
+            <property name="javax.persistence.jdbc.password" value="4e7a84e0" />
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
         </properties>
