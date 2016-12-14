@@ -1,0 +1,59 @@
+#content {
+    height: auto;
+}
+
+.big_block {
+    width: 80%;
+    min-width: 150px;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+}
+
+.upload_form {
+    display: inline-block;
+    background-color: #f5f5f5;
+    color: black;
+    margin: 2px;
+    border-radius: 2px;
+}
+
+.white {
+    color: white;
+}
+
+.login_control {
+    display: block;
+    background-color: white;
+    vertical-align: middle;
+    margin: 1px auto !important;
+    padding: 6px 12px !important;
+    width: 200px;
+}
+
+.big_button {
+    background-color: rgba(140, 7, 1, 0.15);
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-top: 15px;
+    padding: 10px 12px;
+    width: 200px;
+    box-sizing: content-box;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.big_button:hover {
+    background-color: rgba(140, 7, 1, 0.65);
+}
+
+.error_message {
+    display: block;
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 15%;
+}
