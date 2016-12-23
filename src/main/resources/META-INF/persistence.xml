@@ -10,10 +10,27 @@
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/heroku_a2736c1ec063973?reconnect=true"/>
             <property name="javax.persistence.jdbc.user" value="b73b29b287469f" />
             <property name="javax.persistence.jdbc.password" value="4e7a84e0" />
-            <property name="javax.persistence.jdbc.connectTimeout" value="0" />
-            <property name="javax.persistence.jdbc.autoReconnect" value="true" />
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
+
+            <!--<property name="hibernate.c3p0.min_size" value="10"/>-->
+            <!--<property name="hibernate.c3p0.max_size" value="280"/>-->
+            <!--<property name="hibernate.c3p0.timeout" value="100"/>-->
+            <!--<property name="hibernate.c3p0.max_statements" value="0"/>-->
+            <!--<property name="hibernate.c3p0.idle_test_period" value="300"/>-->
+
+
+            <!--<property name="hibernate.c3p0.autoCommitOnClose" value="false"/>-->
+            <!--<property name="hibernate.c3p0.preferredTestQuery" value="SELECT 1"/>-->
+            <!--<property name="hibernate.c3p0.unreturnedConnectionTimeout"-->
+                      <!--value="60"/>-->
+
+            <property name="hibernate.c3p0.min_size" value="5"/>
+            <property name="hibernate.c3p0.max_size" value="20"/>
+            <property name="hibernate.c3p0.timeout" value="1800"/>
+            <property name="hibernate.c3p0.max_statements" value="50"/>
+            <property name="hibernate.c3p0.idle_test_period" value="1800"/>
+            <property name="c3p0.idleConnectionTestPeriod" value="1810"/>
         </properties>
     </persistence-unit>
 </persistence>
