@@ -6,8 +6,6 @@ target/*
 
 oldImg/*
 
-application.properties
-
 *.class
 
 *.war
