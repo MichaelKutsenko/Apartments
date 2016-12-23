@@ -10,6 +10,8 @@
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/heroku_a2736c1ec063973?reconnect=true"/>
             <property name="javax.persistence.jdbc.user" value="b73b29b287469f" />
             <property name="javax.persistence.jdbc.password" value="4e7a84e0" />
+            <property name="javax.persistence.jdbc.connectTimeout" value="0" />
+            <property name="javax.persistence.jdbc.autoReconnect" value="true" />
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
         </properties>

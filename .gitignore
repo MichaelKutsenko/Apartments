@@ -1,13 +1,15 @@
-#.idea/*
+.idea/*
 
-#out/*
+out/*
 
-#target/*
+target/*
 
 oldImg/*
 
-#*.class
+application.properties
 
-#*.war
-#*.jar
-#*.ear
+*.class
+
+*.war
+*.jar
+*.ear
