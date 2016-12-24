@@ -45,7 +45,6 @@
                 <!--org.hibernate.connection.C3P0ConnectionProvider</property>-->
             <!-- no "connection.pool_size" entry! -->
 
-
         </properties>
     </persistence-unit>
 </persistence>
