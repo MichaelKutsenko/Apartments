@@ -34,6 +34,7 @@
             <property name="hibernate.c3p0.validate" value="true"/>
             <property name="connection.provider_class" value="org.hibernate.connection.C3P0ConnectionProvider"/>
             <property name="hibernate.c3p0.idle_test_period" value="1800"/>
+            <property name="hibernate.c3p0.preferredTestQuery" value="SELECT 1"/>
             <property name="c3p0.idleConnectionTestPeriod" value="1810"/>
 
             <!-- hibernate.cfg.xml -->
