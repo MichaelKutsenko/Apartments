@@ -31,7 +31,7 @@
             <property name="hibernate.c3p0.max_statements" value="50"/>
             <property name="hibernate.c3p0.validate" value="true"/>
             <!--<property name="hibernate.connection.provider_class" value="org.hibernate.connection.C3P0ConnectionProvider"/>-->
-            <!--<property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>-->
+            <property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
             <property name="hibernate.c3p0.idle_test_period" value="1800"/>
             <property name="hibernate.c3p0.preferredTestQuery" value="SELECT 2"/>
             <property name="c3p0.idleConnectionTestPeriod" value="1810"/>
