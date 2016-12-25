@@ -6,6 +6,8 @@ target/*
 
 oldImg/*
 
+p/*
+
 *.class
 
 *.war
