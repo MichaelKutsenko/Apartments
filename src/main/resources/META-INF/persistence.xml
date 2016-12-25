@@ -14,13 +14,11 @@
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
 
-            <property name="hibernate.c3p0.min_size">5</property>
-            <property name="hibernate.c3p0.max_size">20</property>
-            <property name="hibernate.c3p0.max_statements">50</property>
-            <property name="hibernate.c3p0.timeout">51</property>
-            <property name="hibernate.c3p0.idle_test_period">51</property>
-
-
+            <property name="hibernate.c3p0.min_size" value="5"/>
+            <property name="hibernate.c3p0.max_size" value="20"/>
+            <property name="hibernate.c3p0.max_statements" value="50"/>
+            <property name="hibernate.c3p0.timeout" value="51"/>
+            <property name="hibernate.c3p0.idle_test_period" value="51"/>
         </properties>
     </persistence-unit>
 </persistence>
