@@ -4,10 +4,6 @@ out/*
 
 target/*
 
-oldImg/*
-
-p/*
-
 *.class
 
 *.war
