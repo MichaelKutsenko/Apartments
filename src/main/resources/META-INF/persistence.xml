@@ -4,21 +4,23 @@
              version="2.0">
     <persistence-unit name="FlatsJPA" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
         <properties>
             <property name="hibernate.show_sql" value="true" />
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/heroku_a2736c1ec063973?reconnect=true"/>
-            <!--<property name="javax.persistence.jdbc.url" value="jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/heroku_a2736c1ec063973?autoReconnect=true"/>-->
-            <property name="javax.persistence.jdbc.user" value="b73b29b287469f" />
-            <property name="javax.persistence.jdbc.password" value="4e7a84e0" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://gi6kn64hu98hy0b6.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/cqyfv0wnflxmpuod?autoReconnect=true&amp;autoReconnectForPools=true&amp;characterEncoding=UTF-8"/>
+            <property name="javax.persistence.jdbc.user" value="e4gg7nnkyfxvvtfd" />
+            <property name="javax.persistence.jdbc.password" value="lc1i5hrdunf9zx2s" />
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
 
             <property name="hibernate.c3p0.min_size" value="5"/>
             <property name="hibernate.c3p0.max_size" value="20"/>
             <property name="hibernate.c3p0.max_statements" value="50"/>
-            <property name="hibernate.c3p0.timeout" value="51"/>
-            <property name="hibernate.c3p0.idle_test_period" value="51"/>
+
+            <property name="hibernate.c3p0.testConnectionOnCheckout" value="true"/>
+            <property name="hibernate.c3p0.idleConnectionTestPeriod" value="10"/>
+            <property name="hibernate.c3p0.preferredTestQuery" value="SELECT 1"/>
         </properties>
     </persistence-unit>
 </persistence>

@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="MySQL - heroku_a2736c1ec063973@eu-cdbr-west-01.cleardb.com" uuid="fd2ef5b2-f817-4b24-89ef-a5d500f6c90c">
+    <data-source source="LOCAL" name="MySQL - juws" uuid="fd2ef5b2-f817-4b24-89ef-a5d500f6c90c">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/heroku_a2736c1ec063973?reconnect=true</jdbc-url>
+      <jdbc-url>jdbc:mysql://gi6kn64hu98hy0b6.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/cqyfv0wnflxmpuod</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
         <property name="tinyInt1isBit" value="false" />
-        <property name="characterEncoding" value="utf8" />
+        <property name="characterEncoding" value="UTF-8" />
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
+        <property name="autoReconnectForPools" value="true" />
+        <property name="interactiveClient" value="true" />
       </driver-properties>
     </data-source>
   </component>
